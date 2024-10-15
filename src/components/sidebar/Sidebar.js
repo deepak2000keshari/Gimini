@@ -41,10 +41,6 @@ const Sidebar = () => {
         <div className="down">
                     <ul>
                         <li className = "clickable">
-                            <FontAwesomeIcon icon={faGem} className="fa-sharp"/> {/* Use FontAwesomeIcon with   faBars */}
-                            {show&& <span>Gem Manager</span>} 
-                        </li>
-                        <li className = "clickable">
                             <FontAwesomeIcon icon={faQuestionCircle} className="fa-sharp"/> {/* Use FontAwesomeIcon with   faBars */}
                             {show&&<span>Help</span>} 
                         </li>
